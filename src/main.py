@@ -1,13 +1,13 @@
-import code1 as code1
-import helpers2 as helpers2
+import src.maths as maths
+import src.helpers as helpers
 
 print("starting app")
 
 x = input("Enter your name: ")
 print("Hello " + x)
 
-result = code1.Add(5, 3)
+result = maths.Add(5, 3)
 print("Result:", result)
 
-data = helpers2.getData()
+data = helpers.getData()
 print("Data:", data)

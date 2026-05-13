@@ -1,4 +1,4 @@
-import src.maths as maths
+import helpers.maths as maths
 
 def test_add():
     assert maths.Add(2, 3) == 5

@@ -1,5 +1,5 @@
-import src.maths as maths
-import src.helpers as helpers
+import helpers.maths as maths
+import helpers.helper as helper
 
 print("starting app")
 
@@ -9,5 +9,5 @@ print("Hello " + x)
 result = maths.Add(5, 3)
 print("Result:", result)
 
-data = helpers.getData()
+data = helper.getData()
 print("Data:", data)
